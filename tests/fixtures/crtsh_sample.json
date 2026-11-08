@@ -1,0 +1,10 @@
+[
+  {"id": 1, "name_value": "login.examplebrand-secure.test\nwww.examplebrand-secure.test"},
+  {"id": 2, "name_value": "*.ExampleBrand.test"},
+  {"id": 3, "name_value": "shop.examplebrand.test"},
+  {"id": 4, "name_value": "examplebrand.test."},
+  {"id": 5, "name_value": "user@examplebrand.test\nnot a domain\n192.0.2.1"},
+  {"id": 6, "name_value": null},
+  {"id": 7},
+  {"id": 8, "name_value": "unrelated.test"}
+]
