@@ -7,7 +7,7 @@ FIXTURE = Path(__file__).parent / "fixtures" / "crtsh_sample.json"
 
 
 def test_detect_excludes_allowlist_and_subdomains():
-    domains = parse_crtsh(FIXTURE.read_text())
+    domains = set(parse_crtsh(FIXTURE.read_text()))
     assert detect(domains, ["examplebrand"], ["examplebrand.test"]) == {
         "login.examplebrand-secure.test",
         "www.examplebrand-secure.test",
